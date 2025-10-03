@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.header {
+    margin-left: 25%;
+    background-image: linear-gradient(to bottom, black, rgb(57, 57, 57));
+    width: 50%;
+    color: lightblue;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+}
+
+.sidebar {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 0px;
+    margin-top: 20%;
+    background-color: black;
+    border-radius: 10px;
+}
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    padding: 6px 40px;
+    text-decoration: none;
+    color:black;
+}
+
+.sidebar ul li a:hover{
+    background-color: gray;
+}
+
+.sidebarfärg {
+    color: white;
+    text-decoration: none;
+}
+
+#current {
+    background-color: lightblue;
+}
+
+.boxes {
+    display: block;
+    position: absolute;
+}
+
