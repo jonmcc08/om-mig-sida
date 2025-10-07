@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-image: url(Bilder/space.gif);
 }
 
 .main {
@@ -11,7 +11,7 @@ body {
 
 .header {
     margin-left: 25%;
-    background-image: linear-gradient(to bottom, black, rgb(57, 57, 57));
+    background-image: linear-gradient(to bottom, rgb(66, 151, 255), rgb(85, 133, 255));
     width: 50%;
     color: lightblue;
     font-weight: bold;
@@ -21,11 +21,11 @@ body {
 
 .sidebar {
     display: block;
-    position: absolute;
+    position: fixed;
     text-align: center;
     font-size: x-large;
     margin-left: 0px;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: black;
     border-radius: 10px;
 }
@@ -55,8 +55,42 @@ body {
     background-color: lightblue;
 }
 
+/*Döper denna boxes då den kommer användas för att göra varenda div till en box med en absolute position för att göra så att de kan "flyta" i webbsidan*/
 .boxes {
     display: block;
     position: absolute;
 }
 
+.blackbg {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.boxone {
+    margin-left: 15%;
+    margin-top: 60px;
+    max-width:  40%; 
+}
+
+.boxtwo {
+    max-width: 30%;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+
+.boxthree {
+    max-width: 30%;
+    margin-left: 25%;
+    margin-top: 550px;
+}
+
+.imgsize {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.padding {
+    padding: 5px;
+}
