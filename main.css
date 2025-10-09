@@ -1,16 +1,15 @@
 body {
-    background-image: url(Bilder/space.gif);
+    background-image: url(/Om\ mig/Bilder/space.gif);
 }
 
-.main {
+.header {
+    position: sticky;
+    top: 10;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 40px;
-}
-
-.header {
-    margin-left: 25%;
+    left: 25%;
     background-image: linear-gradient(to bottom, rgb(66, 151, 255), rgb(85, 133, 255));
     width: 50%;
     color: lightblue;
@@ -59,13 +58,17 @@ body {
 .boxes {
     display: block;
     position: absolute;
+    border-radius: 10px;
 }
 
 .blackbg {
     background-color: black;
     color: white;
-    border-radius: 10px;
-    position: absolute;
+}
+
+.gradientbg {
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 85), rgb(0, 234, 255)) !important;
+    color: black;
 }
 
 .boxone {
