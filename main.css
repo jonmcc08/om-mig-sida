@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Om\ mig/Bilder/space.gif);
+    background-image: url(Bilder/space.gif);
 }
 
 .header {
@@ -71,22 +71,57 @@ body {
     color: black;
 }
 
+.gradientbluebg {
+    background-image: linear-gradient(to bottom left, rgb(55, 0, 255), rgb(72, 106, 255));
+    color: black;
+}
+
+.alicebluebg {
+    background-color: rgb(220, 239, 255);
+    color: black;
+}
+
 .boxone {
     margin-left: 15%;
-    margin-top: 60px;
-    max-width:  40%; 
+    margin-top: 2%;
+    max-width: 40%; 
 }
 
 .boxtwo {
     max-width: 30%;
     margin-left: 60%;
-    margin-top: 100px;
+    margin-top: 4%;
 }
 
 .boxthree {
     max-width: 30%;
     margin-left: 25%;
-    margin-top: 550px;
+    margin-top: 33%;
+}
+
+.boxfour {
+    max-width: 25%;
+    margin-left: 60%;
+}
+
+.boxfourpos {
+    margin-top: 48%;
+}
+
+.boxfourpostwo {
+    margin-top: 57%;
+}
+
+.boxfive {
+    margin-left: 7%;
+    max-width: 50%;
+    margin-top: 67%;
+}
+
+.boxsix {
+    width: 80%;
+    margin-top: 105%;
+    margin-left: 8%;
 }
 
 .imgsize {
@@ -96,4 +131,20 @@ body {
 
 .padding {
     padding: 5px;
+}
+
+.disclaimer {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    color: red;
+    display: none;
+}
+
+/*Det ända @media sidan kommer använda*/
+@media screen and (max-width: 1280px) {
+    .disclaimer {
+        display: block;
+    }
 }
