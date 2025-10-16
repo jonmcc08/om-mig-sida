@@ -142,7 +142,7 @@ body {
     display: none;
 }
 
-/*Det ända @media sidan kommer använda*/
+/*Det ända @media sidan kommer använda (om sidan är för liten)*/
 @media screen and (max-width: 1280px) {
     .disclaimer {
         display: block;
